@@ -1,0 +1,15 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+  package="io.github.v7lin.tencent_kit">
+
+    <!-- 网络请求 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- 获取设备WIFI连接状态 ，非必要，但建议保留-->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <!-- 检测网络状态 ，非必要，但建议保留 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!-- 读取日志 ，非必要，但建议保留 -->
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <!-- 获取机型信息和运营商信息，非必要权限 -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+</manifest>
